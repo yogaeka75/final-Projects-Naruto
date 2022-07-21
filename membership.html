@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- manggil css -->
+    <link rel="stylesheet" href="style.css" />
+    <title>MEMBERSHIP</title>
+  </head>
+  <body>
+    <!-- ini adalah navbar -->
+    <nav class="navbar navbar-expand bg-light">
+      <div class="container-fluid">
+        <img src="img/nrt.png" alt="naruto" width="100" />
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="movie.html">MOVIE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comics.html">COMICS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="characters.html">CHARACTERS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="membership.html">MEMBERSHIP</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+    <div class="form-control-center">
+      <div class="py-5 text-center mb-3">
+        <img class="d-block mx-auto mb-4" src="img/nrt.png" alt="" width="100" />
+        <h2>Membership Benefits</h2>
+        <p class="lead">By registering for a Naruto Fans membership, you get many benefits: member cards, latest news updates, watching without ads, gathering with other members, the opportunity to go to Tokyo Japan TV</p>
+      </div>
+      <!-- ini form -->
+      <div class="row ms-5 me-5">
+        <div class="col">
+          <h4 class="mb-3">Welcome to Membership</h4>
+          <form class="">
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <label for="firstName" class="form-label">First name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="" />
+                <div class="invalid-feedback">Valid first name is required.</div>
+              </div>
+
+              <div class="col-sm-6">
+                <label for="lastName" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required="" />
+                <div class="invalid-feedback">Valid last name is required.</div>
+              </div>
+
+              <div class="col-6">
+                <label for="username" class="form-label">Username</label>
+                <div class="input-group has-validation">
+                  <span class="input-group-text">@</span>
+                  <input type="text" class="form-control" id="username" placeholder="Username" required="" />
+                  <div class="invalid-feedback">Your username is required.</div>
+                </div>
+              </div>
+
+              <div class="col-6">
+                <label for="email" class="form-label">Email </label>
+                <input type="email" class="form-control" id="email" placeholder="you@example.com" />
+                <div class="invalid-feedback">Please enter a valid email address for shipping updates.</div>
+              </div>
+
+              <div class="col-6">
+                <label for="address" class="form-label">Contact Phone</label>
+                <input type="text" class="form-control" id="address" placeholder="+62" required="" />
+                <div class="invalid-feedback">Please enter your shipping address.</div>
+              </div>
+
+              <div class="col-6">
+                <label for="address2" class="form-label">Address </label>
+                <input type="text" class="form-control" id="address2" placeholder="Apartment or suite" />
+              </div>
+
+              <div class="col-md-8">
+                <label for="country" class="form-label">Country</label>
+                <select class="form-select" id="country">
+                  <option value="">Choose...</option>
+                  <option>Indonesia</option>
+                  <option>Malaysia</option>
+                  <option>Thailand</option>
+                  <option>Brunei</option>
+                  <option>Singapore</option>
+                </select>
+              </div>
+
+              <div class="col-md-4">
+                <label for="state" class="form-label">State</label>
+                <select class="form-select" id="state">
+                  <option value="">Choose...</option>
+                  <option>Magelang</option>
+                  <option>Serawak</option>
+                  <option>Johor</option>
+                  <option>Bangkok</option>
+                </select>
+              </div>
+            </div>
+
+            <button class="w-100 btn btn-primary btn-lg mt-5" type="submit">REGISTER</button>
+          </form>
+        </div>
+      </div>
+      <!-- ini akhir form -->
+    </div>
+    <!-- footer -->
+    <footer class="text-center">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#f3f4f5"
+          fill-opacity="1"
+          d="M0,256L30,250.7C60,245,120,235,180,208C240,181,300,139,360,144C420,149,480,203,540,202.7C600,203,660,149,720,117.3C780,85,840,75,900,69.3C960,64,1020,64,1080,69.3C1140,75,1200,85,1260,117.3C1320,149,1380,203,1410,229.3L1440,256L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"
+        ></path>
+      </svg>
+      <p>© Copyright 2020, All Rights Reserved.</p>
+      <h4>Created With Love By <a href="https://www.instagram.com/yogaeka_75/">Yogaeka_75</a></h4>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#f3f4f5"
+          fill-opacity="1"
+          d="M0,288L80,261.3C160,235,320,181,480,170.7C640,160,800,192,960,202.7C1120,213,1280,203,1360,197.3L1440,192L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
+        ></path>
+      </svg>
+    </footer>
+    <!-- akhir footer -->
+
+    <!-- ini Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
